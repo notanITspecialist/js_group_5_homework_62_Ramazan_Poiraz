@@ -12,7 +12,7 @@ function App() {
      <div>
          <BrowserRouter>
              <Navbar />
-             <div style={{background: '#ccc', height: '1000px'}}>
+             <div style={{background: '#ccc', height: '1000px', paddingTop: '20px'}}>
                  <Switch>
                      <Route path="/" exact render={()=><div>Здравствуйте, это моё певрое портфолио</div>} />
                      <Route path="/ListOfCountries" component={ListOfCountries} />
