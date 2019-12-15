@@ -6,8 +6,8 @@ import './navbar.css'
 
 const Navbar = props => {
     return (
-        <div>
-            <Nav tabs>
+        <div className='navbar'>
+            <Nav>
                 <NavItem className="navbar-element">
                     <NavLink href="#" to="/" >HOME</NavLink>
                 </NavItem>

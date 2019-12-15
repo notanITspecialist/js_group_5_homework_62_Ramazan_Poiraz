@@ -12,12 +12,14 @@ function App() {
      <div>
          <BrowserRouter>
              <Navbar />
-             <Switch>
-                 <Route path="/" exact render={()=><div>HOME</div>} />
-                 <Route path="/ListOfCountries" component={ListOfCountries} />
-                 <Route path="/CreateBurger" component={CreateBurger} />
-                 <Route path="/Messanger" component={Messanger} />
-             </Switch>
+             <div style={{background: '#ccc', height: '1000px'}}>
+                 <Switch>
+                     <Route path="/" exact render={()=><div>Здравствуйте, это моё певрое портфолио</div>} />
+                     <Route path="/ListOfCountries" component={ListOfCountries} />
+                     <Route path="/CreateBurger" component={CreateBurger} />
+                     <Route path="/Messanger" component={Messanger} />
+                 </Switch>
+             </div>
          </BrowserRouter>
      </div>
   );

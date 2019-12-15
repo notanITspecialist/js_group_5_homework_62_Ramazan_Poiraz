@@ -1,3 +1,9 @@
-.navbar-element {
+.navbar {
+    width: 100%;
+    background: #BFBFBF;
+}
+
+.navbar-element a {
+    color: #000;
     margin: 0 5px;
 }

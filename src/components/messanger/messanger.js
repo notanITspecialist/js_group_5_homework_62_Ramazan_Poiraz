@@ -10,7 +10,6 @@ class Messanger extends Component {
     inpMessage: '',
     listMessages: [],
     intervalIndicator: setInterval( async ()=> {
-      console.log('itereted')
       const messages = await axios.get('http://146.185.154.90:8000/messages?datetime='+this.state.listMessages[0].datetime);
       if(messages.data[0]){
         this.createMessages()
