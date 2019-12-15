@@ -1,0 +1,26 @@
+.ingredient {
+    position: relative;
+    width: 80%;
+    margin: 0 auto 10px auto;
+    padding: 10px;
+    border: 1px solid black;
+}
+.ingredient-add {
+    border: 1px solid black;
+    padding: 0 4px;
+    margin-right: 5px;
+    background: #fff;
+}
+.ingredient-add img {
+    width: 20px;
+    height: 20px;
+}
+.ingredient-count {
+    right: 100px;
+    position: absolute;
+    margin-left: auto;
+}
+.ingredient-delete {
+    right: 20px;
+    position: absolute;
+}
