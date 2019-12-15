@@ -19,6 +19,10 @@ const Navbar = props => {
                 <NavItem className="navbar-element">
                     <NavLink href="#" to="/CreateBurger" >BURGER</NavLink>
                 </NavItem>
+                |
+                <NavItem className="navbar-element">
+                    <NavLink href="#" to="/Messanger" >MESSANGER</NavLink>
+                </NavItem>
             </Nav>
         </div>
     );
